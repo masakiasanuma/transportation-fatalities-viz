@@ -26,6 +26,6 @@ python -m http.server 8080
 
 After the server is up and running, open `http://localhost:8080/` on your browser and you should see the following.
 
-![Viz Image](/viz-image)
+![Viz Image](/viz-image.png)
 
 Now you're ready to explore the viz! You can filter by transportation mode, view specific numbers for each year by hovering on the chart, and change between non-cumulative and cumulative fatalities.
