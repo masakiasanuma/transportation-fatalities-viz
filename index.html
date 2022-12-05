@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 6 - Final Project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="main">
+        <h2>Comparing Transportation Fatalities Based on Mode (1975-2020)</h3>
+        <div class="chart-wrap">
+            <div id="area-chart">
+            </div>
+            <div class="vertical" id="filter-options">
+                <div>
+                    <div class="horizontal-checkbox">
+                        <input type="checkbox" id="car-check" checked />
+                        <label style="color:white">Car</label>
+                    </div>
+                    <div class="horizontal-checkbox">
+                        <input type="checkbox" id="pedestrian-check" checked />
+                        <label style="color:white">Pedestrian</label>
+                    </div>
+                    <div class="horizontal-checkbox">
+                        <input type="checkbox" id="motorcycle-check" checked />
+                        <label style="color:white">Motorcycle</label>
+                    </div>
+                    <div class="horizontal-checkbox">
+                        <input type="checkbox" id="bicycle-check" checked />
+                        <label style="color:white">Bicycle</label>
+                    </div>
+                    <div class="horizontal-checkbox">
+                        <input type="checkbox" id="truck-check" checked />
+                        <label style="color:white">Trucks</label>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <input type="radio" name="cumulative" id="cumulative" />
+                    <label style="color:black">Cumulative</label>
+                    <input type="radio" name="cumulative" id="noncumulative" checked />
+                    <label style="color:black">Non-cumulative</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="./main.js"></script>
+
+</html>

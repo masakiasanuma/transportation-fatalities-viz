@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.chart-title {
+    font-weight: bolder;
+    text-anchor: middle;
+}
+
+.chart-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+#filter-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal-checkbox {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px 5px 0px;
+    margin: 2px 0px 2px 0px;
+    border-radius: 5px;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    visibility: hidden;
+    font-size: 12px;
+    font-weight: lighter;
+}
